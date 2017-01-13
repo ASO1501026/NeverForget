@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     final String[] fragments = {
-            "com.example.kanehiro.neverforget.MysizeFragment",
-            "com.example.kanehiro.neverforget.PropertyFragment",
-            "com.example.kanehiro.neverforget.MemorialFragment"
+            "jp.ac.asojuku.st.neverforget.MysizeFragment",
+            "jp.ac.asojuku.st.neverforget.PropertyFragment",
+            "jp.ac.asojuku.st.neverforget.MemorialFragment"
     };
 
     @Override

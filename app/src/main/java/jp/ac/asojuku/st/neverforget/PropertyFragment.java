@@ -3,7 +3,6 @@ package jp.ac.asojuku.st.neverforget;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.nfc.FormatException;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -94,7 +93,7 @@ public class PropertyFragment extends Fragment {
         String car_number;
         //ここで例外キャッチして抜ける
         try{
-            car_number = Integer.toString(Integer.parseInt(edText1.getText().toString()));
+            car_number = edText1.getText().toString();
         }catch (Exception e){
             car_number = null;
         }

@@ -107,7 +107,7 @@ public class MemorialFragment extends Fragment {
         String wedding;
         //ここで例外キャッチして抜ける
         try{
-            wedding = Integer.toString(Integer.parseInt(edText1.getText().toString()));
+            wedding = edText1.getText().toString();
         }catch (Exception e){
             wedding = null;
         }
@@ -115,7 +115,7 @@ public class MemorialFragment extends Fragment {
         String birthday;
 
         try{
-            birthday = Integer.toString(Integer.parseInt(edText2.getText().toString()));
+            birthday = edText2.getText().toString();
         }catch (Exception e){
             birthday = null;
         }
@@ -123,7 +123,7 @@ public class MemorialFragment extends Fragment {
         String birthday1;
 
         try{
-            birthday1 = Integer.toString(Integer.parseInt(edText3.getText().toString()));
+            birthday1 = edText3.getText().toString();
         }catch(Exception e){
             birthday1 = null;
         }
@@ -131,7 +131,7 @@ public class MemorialFragment extends Fragment {
         String birthday2;
 
         try{
-            birthday2 = Integer.toString(Integer.parseInt(edText4.getText().toString()));
+            birthday2 = edText4.getText().toString();
         }catch (Exception e){
             birthday2 = null;
         }
